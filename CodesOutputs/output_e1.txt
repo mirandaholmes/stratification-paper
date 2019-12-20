@@ -1,0 +1,407 @@
+Estimates = 
+data = [49.9948, 51.1873, 48.7793, 48.9782, 48.6705, 47.5106, 47.7898, 46.9221, 49.1962, 49.2207];
+
+
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ testEllipsoidSurface.cpp 
+g++ -std=gnu++11  -o testEllipsoidSurface testEllipsoidSurface.o Stratification.o Point.o SampleStrat.o Move.o Proposals.o Equations.o
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = -347547226
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.859      0.0933      0.0476
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.316 |       0.313       0.498       0.016
+Rejections (Newton)    :        0.209 |       0.243           0     0.00042
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0703       0.498      0.0156
+Rejections (Reverse)   :            0 |           0           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.8794 seconds
+You can generate 1e+06 points in 17.8794 seconds or 0.297991 minutes.
+Statistics: 
+            1.26736 0.763171  0.03053
+Std dev: 
+              0.506891 0.425136  0.17204
+Surface Area Estimate: 49.9948
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.83851 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 25930568
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.859      0.0938      0.0476
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.317 |       0.313       0.501      0.0156
+Rejections (Newton)    :        0.209 |       0.243           0    0.000399
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0704       0.501      0.0152
+Rejections (Reverse)   :        2e-06 |    2.33e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 18.4672 seconds
+You can generate 1e+06 points in 18.4672 seconds or 0.307786 minutes.
+Statistics: 
+            1.26878  0.76095 0.029732
+Std dev: 
+              0.505967 0.426503 0.169847
+Surface Area Estimate: 51.1873
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 5.12766 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 659302739
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.859      0.0937      0.0478
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.316 |       0.312       0.498      0.0159
+Rejections (Newton)    :        0.208 |       0.242           0     0.00023
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0701       0.498      0.0157
+Rejections (Reverse)   :        3e-06 |    3.49e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.9836 seconds
+You can generate 1e+06 points in 17.9836 seconds or 0.299727 minutes.
+Statistics: 
+            1.27123 0.759932 0.031158
+Std dev: 
+              0.509881 0.427125 0.173745
+Surface Area Estimate: 48.7793
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.52368 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = -1317635286
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.858      0.0942      0.0479
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.316 |       0.312         0.5      0.0171
+Rejections (Newton)    :        0.208 |       0.242           0    0.000376
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0698         0.5      0.0167
+Rejections (Reverse)   :        3e-06 |     3.5e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 18.1165 seconds
+You can generate 1e+06 points in 18.1165 seconds or 0.301942 minutes.
+Statistics: 
+             1.2712 0.759824 0.031027
+Std dev: 
+              0.509614  0.42719 0.173391
+Surface Area Estimate: 48.9782
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.64626 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 2114105259
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.859      0.0935      0.0476
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.316 |       0.313       0.499      0.0165
+Rejections (Newton)    :        0.209 |       0.243           0    0.000441
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0703       0.499       0.016
+Rejections (Reverse)   :        4e-06 |    4.66e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 18.2879 seconds
+You can generate 1e+06 points in 18.2879 seconds or 0.304798 minutes.
+Statistics: 
+            1.26849 0.762862 0.031348
+Std dev: 
+              0.509016 0.425328 0.174256
+Surface Area Estimate: 48.6705
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.5861 seconds
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 1908819237
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.858       0.094      0.0477
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.315 |       0.311       0.501      0.0163
+Rejections (Newton)    :        0.207 |       0.242           0    0.000461
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0696       0.501      0.0159
+Rejections (Reverse)   :        1e-06 |    1.17e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.7489 seconds
+You can generate 1e+06 points in 17.7489 seconds or 0.295815 minutes.
+Statistics: 
+            1.27279 0.759172 0.031958
+Std dev: 
+              0.512142 0.427586 0.175888
+Surface Area Estimate: 47.5106
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.79235 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 1676744749
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.857      0.0945      0.0482
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.314 |       0.311       0.498       0.016
+Rejections (Newton)    :        0.207 |       0.241           0    0.000394
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0699       0.498      0.0156
+Rejections (Reverse)   :        4e-06 |    4.67e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.9147 seconds
+You can generate 1e+06 points in 17.9147 seconds or 0.298579 minutes.
+Statistics: 
+            1.27283 0.758926 0.031761
+Std dev: 
+              0.511779 0.427735 0.175363
+Surface Area Estimate: 47.7898
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.76452 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = 1279093410
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.857      0.0945      0.0482
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.314 |       0.311       0.499      0.0178
+Rejections (Newton)    :        0.207 |       0.241           0    0.000498
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0695       0.499      0.0173
+Rejections (Reverse)   :            0 |           0           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.8609 seconds
+You can generate 1e+06 points in 17.8609 seconds or 0.297682 minutes.
+Statistics: 
+            1.27228 0.760115 0.032399
+Std dev: 
+               0.51278 0.427013 0.177057
+Surface Area Estimate: 46.9221
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.87394 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = -1991337643
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.858      0.0944       0.048
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.316 |       0.313         0.5      0.0156
+Rejections (Newton)    :        0.208 |       0.242           0    0.000396
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0702         0.5      0.0152
+Rejections (Reverse)   :        1e-06 |    1.17e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.8982 seconds
+You can generate 1e+06 points in 17.8982 seconds or 0.298303 minutes.
+Statistics: 
+            1.27063 0.760278 0.030908
+Std dev: 
+              0.509122 0.426914 0.173068
+Surface Area Estimate: 49.1962
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.77578 seconds
+mirandas-imac:StratificationSampler2019 mirandaholmes-cerfon$ make
+./testEllipsoidSurface   
+n = 3
+Llist = 
+1 0 0
+1 1 0
+1 1 1
+p0= 1 0 0
+L0 = 1 1 1
+seed = -249732799
+whichcase = 0
+lamlose = 0.4
+lamgain = 0.2, should = 0.2
+lamsame = 0.4
+sig = 1, sigbdy = 0.5, sigtan = 0.4
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.858       0.094      0.0481
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.315 |       0.312       0.496      0.0166
+Rejections (Newton)    :        0.207 |       0.241           0    0.000374
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :            0 |           0           0           0
+Rejections (Metropolis):        0.108 |      0.0701       0.496      0.0163
+Rejections (Reverse)   :        1e-06 |    1.17e-06           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 17.8631 seconds
+You can generate 1e+06 points in 17.8631 seconds or 0.297718 minutes.
+Statistics: 
+            1.27226 0.758565 0.030823
+Std dev: 
+              0.509686 0.427953 0.172838
+Surface Area Estimate: 49.2207
+Actual Surface Area: 48.9719
+writing data to file 
+Writing to file took 4.98375 seconds
+
+

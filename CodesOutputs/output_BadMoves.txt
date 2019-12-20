@@ -1,0 +1,173 @@
+
+============================
+    Output for BadMoves
+============================
+
+
+
+----------------------------
+
+./testParabolaLine   
+seed = -997030900
+lamlose = 0.3
+lamgain = 0.3, should = 0.09
+lamsame = 0.4
+sig = 0.9, sigbdy = 0.3, sigtan = 0.6
+SampleStrat::sample:
+  Sampling manifold, dsave = 1, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.716      0.0667       0.218
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.506 |       0.348       0.796       0.938
+Rejections (Newton)    :       0.0255 |      0.0351     0.00027     0.00153
+Rejections (Alpha)     :        0.037 |           0       0.498      0.0173
+Rejections (Boundary)  :        0.346 |       0.282      0.0164       0.658
+Rejections (Metropolis):       0.0974 |      0.0306       0.282        0.26
+Rejections (Reverse)   :        9e-06 |           0           0    4.13e-05
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 7.56746 seconds
+You can generate 1e+06 points in 7.56746 seconds or 0.126124 minutes.
+Statistics: 
+           0.147294 0.579716  0.27299
+Should be  0.1457, 0.5795, 0.2748
+Ratios: 
+      1 3.93577 1.85337
+Should be  1, 3.9762, 1.8856
+
+
+
+----------------------------
+
+./testPolymer   
+n = 6
+dim = 3
+k = 2
+seed = -1241219040
+lamlose = 0.4
+lamgain = 0.4, should = 0.12
+lamsame = 0.2
+sig = 0.3, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.355       0.246       0.399
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.713 |        0.36       0.879       0.925
+Rejections (Newton)    :        0.118 |      0.0565       0.257       0.086
+Rejections (Alpha)     :       0.0918 |           0       0.371     0.00137
+Rejections (Boundary)  :        0.304 |       0.189      0.0483       0.563
+Rejections (Metropolis):        0.198 |       0.114       0.203        0.27
+Rejections (Reverse)   :      0.00198 |    1.69e-05    0.000503     0.00463
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 50.8229 seconds
+You can generate 1e+06 points in 50.8229 seconds or 0.847048 minutes.
+
+
+
+
+----------------------------
+
+./testPolymer   
+n = 6
+dim = 3
+k = 2
+seed = -1757338117
+lamlose = 0.4
+lamgain = 0.4, should = 0.12
+lamsame = 0.2
+sig = 0.05, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.352       0.249       0.399
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.634 |      0.0618       0.928       0.955
+Rejections (Newton)    :       0.0645 |           0       0.259           0
+Rejections (Alpha)     :       0.0922 |           0       0.371       2e-05
+Rejections (Boundary)  :         0.23 |      0.0304      0.0484       0.518
+Rejections (Metropolis):        0.247 |      0.0314       0.249       0.437
+Rejections (Reverse)   :        2e-05 |           0           0    5.01e-05
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 50.5853 seconds
+You can generate 1e+06 points in 50.5853 seconds or 0.843089 minutes.
+
+
+
+
+
+----------------------------
+
+
+./testPolymer   
+n = 6
+dim = 3
+k = 2
+seed = -882724772
+lamlose = 0.4
+lamgain = 0.4, should = 0.12
+lamsame = 0.2
+sig = 0.1, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.355       0.246       0.399
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.625 |        0.12       0.874       0.922
+Rejections (Newton)    :       0.0646 |           0       0.263           0
+Rejections (Alpha)     :       0.0906 |           0       0.369    9.02e-05
+Rejections (Boundary)  :        0.247 |      0.0589      0.0476       0.536
+Rejections (Metropolis):        0.223 |      0.0611       0.194       0.385
+Rejections (Reverse)   :     0.000129 |           0    8.14e-06    0.000318
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 51.3568 seconds
+You can generate 1e+06 points in 51.3568 seconds or 0.855947 minutes.
+
+
+
+
+
+
+
+----------------------------
+
+./testPolymer   
+n = 6
+dim = 3
+k = 2
+seed = -1387315993
+lamlose = 0.4
+lamgain = 0.4, should = 0.12
+lamsame = 0.2
+sig = 0.2, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.353       0.249       0.398
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.652 |       0.231       0.846       0.903
+Rejections (Newton)    :       0.0675 |     0.00388       0.258     0.00437
+Rejections (Alpha)     :       0.0927 |           0       0.371    0.000555
+Rejections (Boundary)  :        0.284 |       0.124      0.0479       0.573
+Rejections (Metropolis):        0.207 |       0.104       0.168       0.324
+Rejections (Reverse)   :     0.000826 |           0    0.000144     0.00198
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 51.9364 seconds
+You can generate 1e+06 points in 51.9364 seconds or 0.865607 minutes.
+
+
+

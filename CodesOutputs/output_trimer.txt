@@ -1,0 +1,303 @@
+./testTrimer   
+n = 3
+dim = 2
+k = 1
+p0= -0.5    0  0.5    0  0.5    1
+L0 = 1 2 1
+seed = 1692056144
+lamlose = 0.7
+lamgain = 0.28, should = 0.28
+lamsame = 0.02
+sig = 0.5, sigbdy = 0.4, sigtan = 0.3
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics by manifold  =========
+---------------------------------------
+   Manifold 0,  neqns = 2, dim = 4
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.645 |       0.752       0.248           0
+Rejections (All)       :        0.421 |       0.435       0.378         nan
+Rejections (Newton)    :        0.185 |       0.246           0         nan
+Rejections (Alpha)     :            0 |           0           0         nan
+Rejections (Boundary)  :       0.0538 |      0.0715           0         nan
+Rejections (Metropolis):        0.182 |       0.117       0.378         nan
+Rejections (Reverse)   :     0.000195 |     0.00026           0         nan
+---------------------------------------
+   Manifold 1,  neqns = 3, dim = 3
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.355 |        0.72           0        0.28
+Rejections (All)       :        0.033 |      0.0458         nan    8.04e-05
+Rejections (Newton)    :        0.033 |      0.0458         nan           0
+Rejections (Alpha)     :            0 |           0         nan           0
+Rejections (Boundary)  :            0 |           0         nan           0
+Rejections (Metropolis):     2.25e-05 |           0         nan    8.04e-05
+Rejections (Reverse)   :            0 |           0         nan           0
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.741        0.16      0.0995
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.283 |       0.301       0.378    8.04e-05
+Rejections (Newton)    :        0.131 |       0.177           0           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :       0.0347 |      0.0468           0           0
+Rejections (Metropolis):        0.117 |      0.0765       0.378    8.04e-05
+Rejections (Reverse)   :     0.000126 |     0.00017           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 24.7 seconds
+You can generate 1e+06 points in 24.7 seconds or 0.412 minutes.
+Statistics: 
+             -2.35    1.42   0.355 -0.0894
+Std dev: 
+              0.478 0.396 0.478  0.58
+writing pts, labels to file 
+Writing to file took 0.58 seconds
+
+
+./testTrimer   
+n = 3
+dim = 2
+k = 2
+p0= -0.5    0  0.5    0  0.5    1
+L0 = 1 2 1
+seed = 2065362359
+lamlose = 0.7
+lamgain = 0.28, should = 0.28
+lamsame = 0.02
+sig = 0.5, sigbdy = 0.4, sigtan = 0.3
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics by manifold  =========
+---------------------------------------
+   Manifold 0,  neqns = 2, dim = 4
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.475 |       0.752       0.248           0
+Rejections (All)       :        0.354 |       0.437       0.104         nan
+Rejections (Newton)    :        0.185 |       0.245           0         nan
+Rejections (Alpha)     :            0 |           0           0         nan
+Rejections (Boundary)  :       0.0544 |      0.0723           0         nan
+Rejections (Metropolis):        0.115 |       0.119       0.104         nan
+Rejections (Reverse)   :     0.000181 |     0.00024           0         nan
+---------------------------------------
+   Manifold 1,  neqns = 3, dim = 3
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.525 |       0.719           0       0.281
+Rejections (All)       :        0.112 |      0.0452         nan       0.283
+Rejections (Newton)    :       0.0325 |      0.0452         nan           0
+Rejections (Alpha)     :            0 |           0         nan           0
+Rejections (Boundary)  :            0 |           0         nan           0
+Rejections (Metropolis):       0.0795 |           0         nan       0.283
+Rejections (Reverse)   :            0 |           0         nan           0
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.735       0.118       0.147
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.227 |       0.236       0.104       0.283
+Rejections (Newton)    :        0.105 |       0.143           0           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :       0.0259 |      0.0352           0           0
+Rejections (Metropolis):       0.0963 |      0.0577       0.104       0.283
+Rejections (Reverse)   :      8.6e-05 |    0.000117           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 25.8 seconds
+You can generate 1e+06 points in 25.8 seconds or 0.429 minutes.
+Statistics: 
+            -2.53   1.31  0.526 0.0662
+Std dev: 
+              0.499 0.388 0.499 0.562
+writing pts, labels to file 
+Writing to file took 0.571 seconds
+
+
+./testTrimer   
+n = 3
+dim = 2
+k = 4
+p0= -0.5    0  0.5    0  0.5    1
+L0 = 1 2 1
+seed = 625251836
+lamlose = 0.7
+lamgain = 0.28, should = 0.28
+lamsame = 0.02
+sig = 0.5, sigbdy = 0.4, sigtan = 0.3
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics by manifold  =========
+---------------------------------------
+   Manifold 0,  neqns = 2, dim = 4
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.311 |        0.75        0.25           0
+Rejections (All)       :        0.351 |       0.438      0.0923         nan
+Rejections (Newton)    :        0.184 |       0.246           0         nan
+Rejections (Alpha)     :            0 |           0           0         nan
+Rejections (Boundary)  :       0.0544 |      0.0726           0         nan
+Rejections (Metropolis):        0.113 |       0.119      0.0923         nan
+Rejections (Reverse)   :     0.000199 |    0.000266           0         nan
+---------------------------------------
+   Manifold 1,  neqns = 3, dim = 3
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.689 |        0.72           0        0.28
+Rejections (All)       :         0.21 |      0.0455         nan       0.634
+Rejections (Newton)    :       0.0327 |      0.0455         nan           0
+Rejections (Alpha)     :            0 |           0         nan           0
+Rejections (Boundary)  :            0 |           0         nan           0
+Rejections (Metropolis):        0.178 |           0         nan       0.634
+Rejections (Reverse)   :            0 |           0         nan           0
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.729      0.0779       0.193
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.254 |       0.171      0.0923       0.634
+Rejections (Newton)    :       0.0799 |        0.11           0           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :       0.0169 |      0.0232           0           0
+Rejections (Metropolis):        0.157 |      0.0381      0.0923       0.634
+Rejections (Reverse)   :      6.2e-05 |     8.5e-05           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 24.7 seconds
+You can generate 1e+06 points in 24.7 seconds or 0.412 minutes.
+Statistics: 
+           -2.69   1.2 0.688 0.216
+Std dev: 
+              0.463 0.346 0.463 0.498
+writing pts, labels to file 
+Writing to file took 0.551 seconds
+
+
+
+./testTrimer   
+n = 3
+dim = 2
+k = 8
+p0= -0.5    0  0.5    0  0.5    1
+L0 = 1 2 1
+seed = -1149229623
+lamlose = 0.7
+lamgain = 0.28, should = 0.28
+lamsame = 0.02
+sig = 0.5, sigbdy = 0.4, sigtan = 0.3
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics by manifold  =========
+---------------------------------------
+   Manifold 0,  neqns = 2, dim = 4
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.182 |       0.747       0.253           0
+Rejections (All)       :        0.347 |       0.437      0.0815         nan
+Rejections (Newton)    :        0.184 |       0.246           0         nan
+Rejections (Alpha)     :            0 |           0           0         nan
+Rejections (Boundary)  :       0.0554 |      0.0742           0         nan
+Rejections (Metropolis):        0.107 |       0.116      0.0815         nan
+Rejections (Reverse)   :     0.000148 |    0.000199           0         nan
+---------------------------------------
+   Manifold 1,  neqns = 3, dim = 3
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.818 |        0.72           0        0.28
+Rejections (All)       :        0.261 |      0.0454         nan       0.816
+Rejections (Newton)    :       0.0327 |      0.0454         nan           0
+Rejections (Alpha)     :            0 |           0         nan           0
+Rejections (Boundary)  :            0 |           0         nan           0
+Rejections (Metropolis):        0.229 |           0         nan       0.816
+Rejections (Reverse)   :            0 |           0         nan           0
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.725      0.0459       0.229
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.277 |       0.119      0.0815       0.816
+Rejections (Newton)    :       0.0603 |      0.0831           0           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :       0.0101 |      0.0139           0           0
+Rejections (Metropolis):        0.206 |      0.0217      0.0815       0.816
+Rejections (Reverse)   :      2.7e-05 |    3.72e-05           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 24 seconds
+You can generate 1e+06 points in 24 seconds or 0.399 minutes.
+Statistics: 
+           -2.82  1.12 0.817 0.334
+Std dev: 
+              0.386 0.282 0.386 0.405
+writing pts, labels to file 
+Writing to file took 0.666 seconds
+
+
+./testTrimer   
+n = 3
+dim = 2
+k = 16
+p0= -0.5    0  0.5    0  0.5    1
+L0 = 1 2 1
+seed = 555075615
+lamlose = 0.7
+lamgain = 0.28, should = 0.28
+lamsame = 0.02
+sig = 0.5, sigbdy = 0.4, sigtan = 0.3
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 1000000
+
+=========  Rejection Statistics by manifold  =========
+---------------------------------------
+   Manifold 0,  neqns = 2, dim = 4
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.101 |       0.753       0.247           0
+Rejections (All)       :        0.347 |       0.436      0.0781         nan
+Rejections (Newton)    :        0.186 |       0.247           0         nan
+Rejections (Alpha)     :            0 |           0           0         nan
+Rejections (Boundary)  :       0.0535 |       0.071           0         nan
+Rejections (Metropolis):        0.108 |       0.117      0.0781         nan
+Rejections (Reverse)   :     0.000118 |    0.000157           0         nan
+---------------------------------------
+   Manifold 1,  neqns = 3, dim = 3
+---------------------------------------
+-----  Rates  -----    :       Total |        Same        Lose        Gain
+Moves                  :        0.899 |       0.719           0       0.281
+Rejections (All)       :        0.287 |      0.0453         nan       0.908
+Rejections (Newton)    :       0.0326 |      0.0453         nan           0
+Rejections (Alpha)     :            0 |           0         nan           0
+Rejections (Boundary)  :            0 |           0         nan           0
+Rejections (Metropolis):        0.255 |           0         nan       0.908
+Rejections (Reverse)   :            0 |           0         nan           0
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.723      0.0251       0.252
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.293 |      0.0864      0.0781       0.908
+Rejections (Newton)    :       0.0481 |      0.0666           0           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :      0.00542 |     0.00749           0           0
+Rejections (Metropolis):         0.24 |      0.0124      0.0781       0.908
+Rejections (Reverse)   :      1.2e-05 |    1.66e-05           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 23.4 seconds
+You can generate 1e+06 points in 23.4 seconds or 0.391 minutes.
+Statistics: 
+            -2.9  1.07 0.899 0.407
+Std dev: 
+              0.302 0.219 0.302 0.314
+writing pts, labels to file 
+Writing to file took 0.535 seconds
+
+
+
+

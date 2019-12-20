@@ -1,0 +1,36 @@
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ testBDPolymer.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Particles.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ BDSampler.cpp
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ ParticlesPolymer.cpp -o System.o
+g++ -std=gnu++11  -o testBDPolymer testBDPolymer.o Particles.o BDSampler.o System.o
+./testBDPolymer   
+kappa (approx) = 4, E = 5.78599
+seed = -1915663635
+  currentTime = 500, simulation time = 17.6148 minutes.
+  currentTime = 1000, simulation time = 32.6267 minutes.
+  currentTime = 1500, simulation time = 46.808 minutes.
+  currentTime = 2000, simulation time = 61.1097 minutes.
+  currentTime = 2500, simulation time = 75.279 minutes.
+  currentTime = 3000, simulation time = 89.3947 minutes.
+  currentTime = 3500, simulation time = 103.508 minutes.
+  currentTime = 4000, simulation time = 118.569 minutes.
+  currentTime = 4500, simulation time = 137.352 minutes.
+  currentTime = 5000, simulation time = 153.313 minutes.
+  currentTime = 5500, simulation time = 170.797 minutes.
+  currentTime = 6000, simulation time = 185.078 minutes.
+  currentTime = 6500, simulation time = 199.105 minutes.
+  currentTime = 7000, simulation time = 213.119 minutes.
+  currentTime = 7500, simulation time = 227.155 minutes.
+  currentTime = 8000, simulation time = 241.164 minutes.
+  currentTime = 8500, simulation time = 255.165 minutes.
+  currentTime = 9000, simulation time = 269.164 minutes.
+  currentTime = 9500, simulation time = 283.259 minutes.
+Statistics: 
+                 11.027 6.92665e-310
+Std dev: 
+              1.02236       0
+-----  Timing  -----
+Total time    : 17839.9 seconds
+You can simulate 1000 time units in  1783.99 seconds
+writing data to file 
+Writing to file took 1.10372 seconds

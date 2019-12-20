@@ -1,0 +1,47 @@
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ testPolymer.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Stratification.cpp
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Point.cpp
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ SampleStrat.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Move.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Proposals.cpp -o Proposals.o
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ EquationsPolymer.cpp -o Equations.o
+g++ -std=gnu++11  -o testPolymer testPolymer.o Stratification.o Point.o SampleStrat.o Move.o Proposals.o Equations.o
+./testPolymer   
+n = 6
+dim = 3
+k = 2
+FixFcns = 
+1 0 0 0 0 1 0 0 0 1 0 0 1 0 1
+L0 = 
+1 2 2 2 2 1 2 2 2 1 2 2 1 2 1
+edges = 
+0 0 0 0 0 1 1 1 1 2 2 2 3 3 4
+1 2 3 4 5 2 3 4 5 3 4 5 4 5 5
+seed = -2026232535
+lamlose = 0.4
+lamgain = 0.24, should = 0.12
+lamsame = 0.36
+sig = 0.4, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 4, npts = 40000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.514       0.247       0.239
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.408 |       0.488       0.335       0.312
+Rejections (Newton)    :        0.101 |       0.196    8.19e-06           0
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :        0.138 |       0.226      0.0462       0.042
+Rejections (Metropolis):         0.17 |      0.0663       0.289        0.27
+Rejections (Reverse)   :     1.38e-05 |    2.68e-05           0           0
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 3311.48 seconds
+You can generate 1e+06 points in 82.787 seconds or 1.37978 minutes.
+Statistics: 
+           9.7764
+Std dev: 
+              1.47128
+writing data to file 
+Writing to file took 29.7222 seconds
