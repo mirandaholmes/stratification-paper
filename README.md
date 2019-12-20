@@ -1,8 +1,12 @@
 # stratification-paper
 Code, outputs, data, and figure-making files for "Simulating sticky particles: a Monte Carlo method to sample a stratification"
 
-This folder contains all the codes required to regenerate the data in the paper, 
+This folder contains all* the codes required to regenerate the data in the paper, 
 as well as the data and program output. Here is a summary of what it contains: 
+
+* Exception: PolymerStrat_s1_labels.txt, PolymerStrat_s2_data.txt, trimer_d2_k1_data2.txt have
+not been uploaded yet, because they are too big to upload using the web interface. 
+
 
 ------------------------------------------------ 
 Folder CodesOutputs/ 
