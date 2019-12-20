@@ -68,7 +68,7 @@ List of Experiments
 ------------------------------------------------ 
 
 b1-b5: Brownian dynamics experiments, used to compare with data from Example 3. 
-Used in ****
+Used in makefigs_polymer.m. 
 
 
 BadMoves: implements the "poor" choices of proposals described in Section 3.3.1. 
