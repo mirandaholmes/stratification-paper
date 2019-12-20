@@ -1,0 +1,41 @@
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ testPolymerWall.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Stratification.cpp
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Point.cpp
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ SampleStrat.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Move.cpp 
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ Proposals.cpp -o Proposals.o
+g++ -std=gnu++11  -c -O3 -I /home/holmes/Programs/ EquationsPolymerWall.cpp -o Equations.o
+g++ -std=gnu++11  -o testPolymerWall testPolymerWall.o Stratification.o Point.o SampleStrat.o Move.o Proposals.o Equations.o
+./testPolymerWall   
+n = 20
+dim = 3
+k = 1
+kbend = 2
+seed = -159409559
+lamlose = 0.4
+lamgain = 0.24, should = 0.12
+lamsame = 0.36
+sig = 0.15, sigbdy = 0.3, sigtan = 0.2
+SampleStrat::sample:
+  Sampling manifold, dsave = 10, npts = 10000000
+
+=========  Rejection Statistics:  =========
+-----  Rates  ---------:       Total  |        Same        Lose        Gain
+Moves                  :              |       0.416       0.344        0.24
+------------------------------------------------------------------------------ 
+Rejections (All)       :        0.504 |       0.672       0.478       0.252
+Rejections (Newton)    :       0.0166 |      0.0398    6.95e-05       5e-06
+Rejections (Alpha)     :            0 |           0           0           0
+Rejections (Boundary)  :        0.155 |       0.288      0.0466      0.0777
+Rejections (Metropolis):        0.333 |       0.344       0.431       0.174
+Rejections (Reverse)   :      4.5e-06 |    9.38e-06    1.16e-06    8.33e-07
+------------------------------------------------------------------------------ 
+-----  Timing  -----
+Total time    : 8430.69 seconds
+You can generate 1e+06 points in 843.069 seconds or 14.0512 minutes.
+Statistics: 
+           14.9086 8.08025
+Std dev: 
+              2.54479 3.59898
+writing data to file 
+Writing to file took 4.93943 seconds
